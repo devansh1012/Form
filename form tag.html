@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title> Form Tag</title>
+	</head>
+	
+	<body>
+		<form>
+		
+		    <fieldset>
+				<legend>Personal data</legend>
+			
+			
+			<label>Name</label>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   
+			        <input type="text" placeholder="eg:Dev Suthar">
+			        <br/><br/>
+			
+			
+			<label>Password</label> &nbsp&nbsp  
+			        <input type="password">
+			        <br/><br/>
+			
+			
+			<label>Gender</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					<input type="radio" name="gender" id="male">    <label for="male">Male</label>
+					<input type="radio" name="gender" id="female">  <label for="female">Female</label>
+					<br/><br/>
+			
+			
+			<label>Hobbies</label>    &nbsp;&nbsp;&nbsp;&nbsp;  
+			        <input type="checkbox" name="hobbies" id="sports">    <label for="sports">Sports</label>
+			        <input type="checkbox" name="hobbies" id="cooking">   <label for="cooking">cooking</label>
+					<input type="checkbox" name="hobbies" id="dance">     <label for="dance">Dancing</label>
+					<input type="checkbox" name="hobbies" id="others">    <label for="others">Others</label>
+					<br/><br/>
+		
+			<lable>Country</label>   &nbsp;&nbsp;&nbsp;&nbsp;
+			
+				<select>
+				    <option placeholder="--">--</option>
+					<option id="option B">India</option>
+					<option id="option C">America</option>
+					<option id="option D">Germany</option>
+					<option id="option E">Canada</option>
+					<option id="option F">Kenya</option>
+					<option id="option G">Russia</option>
+				</select>
+			
+				<br></br> 
+			
+			<label>Message</label> &nbsp;&nbsp;&nbsp;     <textarea placeholder="your msg" rows="10" cols="50"></textarea>		
+				</br></br>
+		
+		
+			<label>Optgroup</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			
+				<select>
+					<optgroup label="Lamborghini">
+						<option>Aventador</option>
+						<option>Huracan</option>
+						<option>Urus</option>
+						<option>Sian</option>
+					</optgroup>
+					
+					<optgroup label="Rolls-Royce">
+						<option>Phantom</option>
+						<option>Ghost</option>
+						<option>Cullinan</option>
+						<option>Wraith</option>
+					</optgroup>
+				</select>	
+				</br></br>
+				
+				<label>Datalist</label>
+					<input list="cars">
+					<datalist id="cars">
+						<option>Phantom</option>
+						<option>Ghost</option>
+						<option>Cullinan</option>
+						<option>Wraith</option>
+						<option>Aventador</option>
+						<option>Huracan</option>
+						<option>Urus</option>
+						<option>Sian</option>
+						<option>Dawn</option>
+						<option>Gallardo</option>
+						<option>Murcielago</option>
+						<option>Phantom Extended Wheelbase</option>
+					</datalist>	
+					</br></br>
+					
+					
+				<label>Uplod File</label>
+						<input type="file" name="" />
+						<p>(Here only file name is seen, whole file can be seen by use of php or .net. Another type in input is to give accept="" here we
+						can give only img, vid, audio, by-> "image/*" here * means img can be of any format, for particular format "image/.jpg" same for audio and video)</p>
+						
+						
+						<input type="submit" />
+						<input type="reset"/>
+				</fieldset>
+		</form> 
+		
+	</body>
+</html>
